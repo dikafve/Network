@@ -53,7 +53,7 @@ for subnet in subnet_list:
                        str(host_terakhir), str(subnet.broadcast_address),
                        jumlah_host))
 
-# ===== FITUR TAMBAHAN: cek IP milik subnet yang mana =====
+# FITUR TAMBAHAN: cek IP milik subnet yang mana
 daftar_uji = ["192.168.1.10", "192.168.1.64", "192.168.1.130",
               "192.168.1.255", "192.168.2.5"]
 print()
